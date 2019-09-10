@@ -1,10 +1,11 @@
 .projectText {
   margin-top: 0.83em;
+  word-wrap: break-word;
+  word-break: break-word;
 }
 .projectTextHeader {
   margin-bottom: 0.28em;
   line-height: var(--line-height-body);
-  word-break: break-all;
 }
 .projectTextHeaderTitle {
   display: inline;
@@ -15,6 +16,9 @@
 }
 .projectTextDescription {
   line-height: calc(var(--line-height-body) - 0.1em);
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
 }
 
 /* @media screen and (min-width: 1200px) {
