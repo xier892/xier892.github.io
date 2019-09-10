@@ -1,15 +1,13 @@
 const renderProject = (data) => {
   const fragment = document.createDocumentFragment();
-  const grid = document.createElement('ul');
-  grid.className = 'grid';
-  grid.setAttribute('role', 'list');
-  fragment.appendChild(grid);
+
   Object.entries(data).forEach((array) => {
     const [entry, { title, description }] = array;
     const project = document.createElement('li');
     project.className = 'project';
     project.role = 'listitem';
-    grid.insertBefore(project, grid.firstChild);
+    fragment.insertBefore(project, fragment.firstChild);
+
     const generateProjectImage = () => {
       // image section
       const projectImage = document.createElement('div');
@@ -51,6 +49,7 @@ const renderProject = (data) => {
       projectImage.appendChild(projectImageContainer);
       project.appendChild(projectImage);
     };
+
     const generateProjectText = () => {
       // text section
       const projectText = document.createElement('div');
@@ -75,8 +74,14 @@ const renderProject = (data) => {
       projectText.appendChild(projectTextDescription);
       project.appendChild(projectText);
     };
+
     generateProjectImage();
     generateProjectText();
   });
-  document.getElementById('projects').appendChild(fragment);
+
+  const grid = document.createElement('ul');
+  grid.className = 'grid';
+  grid.setAttribute('role', 'list');
+  grid.appendChild(fragment);
+  document.getElementById('projects').appendChild(grid);
 };
