@@ -1,0 +1,53 @@
+.pageHeaderText {
+  font-family: var(--typeface-decorative);
+}
+.pageHeaderDiv {
+  display: none;
+  background-color: var(--color-secondary);
+  flex: 1;
+}
+.pageHeaderTextName {
+  letter-spacing: 0.055em;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+.pageHeaderTextDescriptor {
+  text-transform: lowercase;
+  font-size: var(--font-size-3);
+}
+
+@media screen and (min-width: 1024px) {
+  .pageHeaderDiv {
+    display: block;
+    height: 1px;
+    width: 100%;
+    align-self: center;
+  }
+  .pageHeaderText {
+    align-self: center;
+  }
+  .pageHeaderTextName {
+    margin-right: 20px;
+    margin-bottom: 0;
+  }
+  .pageHeaderTextDescriptor {
+    margin-left: 20px;
+  }
+}
+@media screen and (min-width: 1366px) and (min-height: 960px) {
+  .pageHeaderDiv {
+    height: 100%;
+    width: 1px;
+  }
+  .pageHeaderText {
+    writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+  }
+  .pageHeaderTextName {
+    margin: 0 0 20px 0;
+  }
+  .pageHeaderTextDescriptor {
+    margin: 20px 0 0 0;
+  }
+}

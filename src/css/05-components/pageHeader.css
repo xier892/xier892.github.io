@@ -1,0 +1,31 @@
+.pageHeader {
+  display: flex;
+  top: 0;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: var(--grid-padding-vertical);
+}
+
+@media screen and (min-width: 1024px) {
+  .pageHeaderWrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 1366px) and (min-height: 960px) {
+  .pageHeader {
+    position: sticky;
+    flex-direction: row;
+    justify-content: flex-start;
+    min-width: 12%;
+    height: 100vh;
+    margin-right: var(--grid-padding-horizontal);
+  }
+  .pageHeaderWrapper {
+    position: fixed;
+    height: 91%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    transform: translateX(-11px);
+  }
+}

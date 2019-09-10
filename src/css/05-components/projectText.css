@@ -1,0 +1,38 @@
+.projectText {
+  margin-top: 0.83em;
+  font-size: 90%;
+}
+.projectTextHeader {
+  margin-bottom: 0.28em;
+  line-height: var(--line-height-body);
+  word-break: break-all;
+}
+.projectTextHeaderTitle {
+  display: inline;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.025em;
+}
+.projectTextDescription {
+  line-height: calc(var(--line-height-body) - 0.1em);
+}
+
+/* @media screen and (min-width: 1200px) {
+  a .projectTextHeaderTitle::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: var(--color-secondary);
+    transform-origin: bottom right;
+    transform: scaleX(0);
+    transition: transform 0.15s cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  a .projectTextHeaderTitle:hover::before {
+    transform-origin: bottom left;
+    transform: scaleX(1);
+  }
+} */

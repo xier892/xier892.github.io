@@ -1,0 +1,42 @@
+.projectImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.projectImageIE {
+  height: 60vw;
+}
+.projectImageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  max-height: 100%;
+}
+.projectImageContainer picture, .projectImageContainer img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (min-width: 1200px) {
+  .projectImage, .projectImageIE {
+    height: 26.8vw;
+    transition: border 0.15s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  .projectImageContainer {
+    transition: transform 0.1s cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  .projectImage:hover {
+    border: 1px solid var(--color-secondary);
+  }
+  .projectImage:hover .projectImageContainer {
+    transform: scaleX(0.977) scaleY(0.97);
+  }
+}
+@media screen and (min-width: 2560px) {
+  .projectImage, .projectImageIE {
+    height: 17.7vw;
+  }
+}

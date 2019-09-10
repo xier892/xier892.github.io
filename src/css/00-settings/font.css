@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'Sanchez';
+  font-display: block;
+  src: url('assets/font/Sanchez.eot');
+  src: url('assets/font/Sanchez.eot?#iefix') format('embedded-opentype'),
+    url('assets/font/Sanchez.woff2') format('woff2'),
+    url('assets/font/Sanchez.woff') format('woff'),
+    url('assets/font/Sanchez.ttf') format('truetype'),
+    url('assets/font/Sanchez.svg#Sanchez') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Sanchez';
+  font-display: block;
+  src: url('assets/font/Sanchez-Light.eot');
+  src: url('assets/font/Sanchez-Light.eot?#iefix') format('embedded-opentype'),
+    url('assets/font/Sanchez-Light.woff2') format('woff2'),
+    url('assets/font/Sanchez-Light.woff') format('woff'),
+    url('assets/font/Sanchez-Light.ttf') format('truetype'),
+    url('assets/font/Sanchez-Light.svg#Sanchez-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Libre Franklin';
+  font-display: fallback;
+  src: url('assets/font/LibreFranklin-Regular.eot');
+  src: url('assets/font/LibreFranklin-Regular.eot?#iefix') format('embedded-opentype'),
+    url('assets/font/LibreFranklin-Regular.woff2') format('woff2'),
+    url('assets/font/LibreFranklin-Regular.woff') format('woff'),
+    url('assets/font/LibreFranklin-Regular.ttf') format('truetype'),
+    url('assets/font/LibreFranklin-Regular.svg#LibreFranklin-Regular') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Libre Franklin';
+  font-display: fallback;
+  src: url('assets/font/LibreFranklin-Bold.eot');
+  src: url('assets/font/LibreFranklin-Bold.eot?#iefix') format('embedded-opentype'),
+    url('assets/font/LibreFranklin-Bold.woff2') format('woff2'),
+    url('assets/font/LibreFranklin-Bold.woff') format('woff'),
+    url('assets/font/LibreFranklin-Bold.ttf') format('truetype'),
+    url('assets/font/LibreFranklin-Bold.svg#LibreFranklin-Bold') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}

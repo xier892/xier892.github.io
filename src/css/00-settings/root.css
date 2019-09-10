@@ -1,0 +1,50 @@
+:root {
+  --color-primary: #4f4f4f;
+  --color-secondary: #999;
+  --typeface-decorative: 'Sanchez', Rockwell, serif;
+  --typeface-body: 'Libre Franklin', sans-serif;
+  --margin: 25px 1.7em;
+  --line-height-body: 1.5em;
+  --font-size-body: 17px;
+  --font-size-1: 2.5em;
+  --font-size-2: 1.34em;
+  --font-size-3: 1.07em;
+  --grid-padding-horizontal: 40px;
+  --grid-padding-vertical: 40px;
+}
+
+@media screen and (min-width: 1600px) {
+  :root {
+    --font-size-2: 1.39em;
+  }
+}
+@media screen and (min-width: 1440px) {
+  :root {
+    --margin: 2.5% 7%;
+  }
+}
+@media screen and (min-width: 1366px) and (min-height: 960px) {
+  :root {
+    --font-size-1: 5.49em;
+  }
+}
+@media screen and (min-width: 1024px) {
+  :root {
+    --margin: 2.5% 4%;
+  }
+}
+@media screen and (min-width: 768px) {
+  :root {
+    --line-height-body: 1.7em;
+    --font-size-body: 20px;
+    --font-size-1: 4em;
+    --margin: 4% 6%;
+  }
+}
+@media screen and (min-width: 568px) and (orientation: landscape) {
+  :root {
+    --line-height-body: 1.7em;
+    --font-size-body: 20px;
+    --font-size-1: 4em;
+  }
+}

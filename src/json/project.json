@@ -1,0 +1,10 @@
+{
+  "index": {
+    "title": "Index Page",
+    "description": "This is the most redundant entry on the website"
+  },
+  "webadvanced-pattern": {
+    "title": "Pattern",
+    "description": "A pattern made from a for loop that determines the number of squares on the grid and their textures"
+  }
+}

@@ -1,0 +1,6 @@
+body {
+  overflow-x: hidden;
+  color: var(--color-primary);
+  font-family: var(--typeface-body);
+  font-size: var(--font-size-body);
+}

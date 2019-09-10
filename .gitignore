@@ -1,0 +1,7 @@
+/template
+/src/assets
+/node_modules
+.DS_Store
+*.psd
+package.json
+package-lock.json
