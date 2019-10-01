@@ -5,6 +5,6 @@
   },
   "webadvanced-pattern": {
     "title": "Pattern",
-    "description": "A multi-layered pattern constructed using nested for loops"
+    "description": "An interactive pattern that one can interact with"
   }
 }
