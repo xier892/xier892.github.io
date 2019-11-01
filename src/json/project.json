@@ -6,5 +6,9 @@
   "webadvanced-pattern": {
     "title": "Pattern",
     "description": "An interactive pattern that one can interact with"
+  },
+  "webadvanced-context": {
+    "title": "Context",
+    "description": "A document that displays select information about medical device-related deaths from the OpenFDA API"
   }
 }
