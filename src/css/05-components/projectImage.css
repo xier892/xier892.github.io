@@ -27,13 +27,14 @@
     height: 26.8vw;
   }
   .projectImageContainer {
-    transition: transform 0.1s cubic-bezier(0.215, 0.61, 0.355, 1);
+    border: 0px solid #fff;
+    /* transition: border 0.1s cubic-bezier(0.215, 0.61, 0.355, 1); */
   }
   .projectImage:hover {
-    border: 1px solid var(--color-secondary);
+    outline: 1px solid var(--color-secondary);
   }
   .projectImage:hover .projectImageContainer {
-    transform: scaleX(0.977) scaleY(0.97);
+    border: 8px solid #fff;
   }
 }
 @media screen and (min-width: 2560px) {

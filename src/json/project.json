@@ -10,5 +10,9 @@
   "webadvanced-context": {
     "title": "Context",
     "description": "A document that displays select information about medical device-related deaths from the OpenFDA API"
+  },
+  "webadvanced-affordances": {
+    "title": "Affordances",
+    "description": "Mobile application-like interface inspired by the affordances of a medicine bottle"
   }
 }
