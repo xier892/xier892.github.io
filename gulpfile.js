@@ -11,7 +11,7 @@ const cssvariables = require('postcss-css-variables');
 const concatCss = require('gulp-concat-css');
 const uglifycss = require('gulp-uglifycss');
 
-const responsive = require('gulp-responsive');
+// const responsive = require('gulp-responsive');
 
 gulp.task('js', function() {
   return gulp.src([
@@ -76,4 +76,4 @@ gulp.task('images', function () {
     .pipe(gulp.dest('dist/assets/image'));
 });
 
-gulp.task('default', gulp.parallel('css', 'js', 'images'));
+gulp.task('default', gulp.parallel('css', 'js'));

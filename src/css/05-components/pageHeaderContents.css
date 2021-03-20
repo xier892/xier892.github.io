@@ -43,6 +43,9 @@
   .pageHeaderText {
     writing-mode: vertical-rl;
     -ms-writing-mode: tb-rl;
+    display: flex;
+    width: auto;
+    align-items: center;
   }
   .pageHeaderTextName {
     margin: 0 0 20px 0;
